@@ -1,0 +1,39 @@
+html,
+body {
+    background-color: black;
+    color: white;
+    background: url(505c3dbe-84a2-4cb8-affd-65811fa4fd55.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+}
+
+#Profile {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom: 80%;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+#Profile img {
+    width: 100%;
+    border-radius: 150px;
+}
+
+#Profile span {
+    position: absolute;
+    bottom: -60px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    font-family: 'Oswald';
+    color: #333;
+    font-size: 25px;
+}
